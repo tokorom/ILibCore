@@ -15,7 +15,6 @@
   if ( self.source ) {
     dispatch_release( self.source ), self.source = nil;
   }
-  [super dealloc];
 }
 
 - (void)cancel {
